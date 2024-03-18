@@ -1,9 +1,19 @@
-[gd_scene load_steps=2 format=3 uid="uid://bnnu4wq40mdtm"]
+[gd_scene load_steps=4 format=3 uid="uid://bnnu4wq40mdtm"]
 
 [ext_resource type="Texture2D" uid="uid://dplvfxpmh2l6g" path="res://icon.svg" id="1_bml06"]
+[ext_resource type="Texture2D" uid="uid://cmi6byrnc7k6b" path="res://icon1.svg" id="2_m4ldr"]
+[ext_resource type="Texture2D" uid="uid://dagpwmelgofkx" path="res://icon2.svg" id="3_l0s0p"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="Icon" type="Sprite2D" parent="."]
 position = Vector2(537, 171)
 texture = ExtResource("1_bml06")
+
+[node name="Icon1" type="Sprite2D" parent="."]
+position = Vector2(239, 343)
+texture = ExtResource("2_m4ldr")
+
+[node name="Icon2" type="Sprite2D" parent="."]
+position = Vector2(819, 348)
+texture = ExtResource("3_l0s0p")
